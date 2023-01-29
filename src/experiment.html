@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experiment</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        constructor(name) {
+          this.name = name;
+        }
+        eat() {
+          console.log("Eating...");
+        }
+      }
+      class Cricketer extends Person {
+        constructor(name, type) {
+          super(name);
+          this.type = type;
+        }
+        eat() {
+          console.log("I love eating...");
+        }
+      }
+      // Cricketer.prototype is created by setting its prototype to Person.prototype
+      const cricketer1 = new Cricketer();
+      cricketer1.eat();
+    </script>
+  </body>
+</html>

@@ -1,5 +1,11 @@
+import CounterContainer from "./components/render_props/CounterContainer";
+
 function App() {
-  return <div>Hello world!</div>;
+  return (
+    <div>
+      <CounterContainer />
+    </div>
+  );
 }
 
 export default App;
