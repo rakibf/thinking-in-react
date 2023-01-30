@@ -1,9 +1,9 @@
-import CounterContainer from "./components/render_props/CounterContainer";
+import Parent from "./components/contextAPI/Parent";
 
 function App() {
   return (
     <div>
-      <CounterContainer />
+      <Parent />
     </div>
   );
 }
