@@ -1,9 +1,9 @@
-import Todo from "./components/useStateHook/Todo";
+import Counter from "./components/useStateHook/Counter";
 
 function App() {
   return (
     <div>
-     <Todo />
+    <Counter />
     </div>
   );
 }
