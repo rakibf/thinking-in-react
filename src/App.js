@@ -1,9 +1,9 @@
-import Parent from "./components/contextAPI/Parent";
+import Todo from "./components/useStateHook/Todo";
 
 function App() {
   return (
     <div>
-      <Parent />
+     <Todo />
     </div>
   );
 }
