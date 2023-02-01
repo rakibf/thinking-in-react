@@ -1,9 +1,9 @@
-import Counter from "./components/useStateHook/Counter";
+import FunctionalComponentContainer from "./components/useEffectHook/FunctionalComponentContainer";
 
 function App() {
   return (
     <div>
-    <Counter />
+      <FunctionalComponentContainer />
     </div>
   );
 }
